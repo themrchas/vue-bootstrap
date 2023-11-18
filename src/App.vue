@@ -1,20 +1,20 @@
 <template>
 
-  App Money
-
   <Layout />
+  <Container />
 
 </template>
   
 
 <script>
 import Layout from './components/Layout.vue';
+import Container from './components/Container.vue';
 
 
 
 export default {
   name: 'App',
-  components: { Layout },
+  components: { Layout, Container },
 
   setup() {
 
