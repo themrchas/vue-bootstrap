@@ -2,6 +2,7 @@
 
   <Layout />
   <Container />
+ <!--  <ViewportInfo />   -->
 
 </template>
   
@@ -9,12 +10,12 @@
 <script>
 import Layout from './components/Layout.vue';
 import Container from './components/Container.vue';
-
+import ViewportInfo from './components/ViewportInfo.vue';
 
 
 export default {
   name: 'App',
-  components: { Layout, Container },
+  components: { Layout, Container, ViewportInfo },
 
   setup() {
 

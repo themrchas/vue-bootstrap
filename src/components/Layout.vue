@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <h2>Screensize {{ screenSize }}</h2>
+    
 
 </template>
   
