@@ -3,11 +3,14 @@
   <h4>Column and Row Examples</h4>
 
     <div class="container">
-      <div class="text-start h5 ">
-        Three div elements with 'col' class applied - &lt;div class&equals;"col border..."&gt;
+      <div class="row">
+        <div class="col text-start h5">
+        Three div elements with 'col' class applied - &lt;div class&equals;container&gt;&lt;div class&equals;"col border..."&gt;.
+        <br/>Note that using the .container class will make container responsive but the columns are set to be non-responsive and equal in width.
+        </div>
       </div>
       <div class="row">
-        <div class="col border bg-info">
+         <div class="col border bg-info">
           Column 1
         </div>
         <div class="col border text-primary border-dark">
@@ -23,34 +26,34 @@
     <div class="container">
       <div class="row">
         <div class="col h5 text-start mt-3">
-          Example showing responsive breakpoint. 
+          Example showing responsive breakpoint using .container class. The .container class is responsive and columns are set be responsive at lg and sm breakpoints respectively.
        </div>
        <div class="col-12 h6 text-start mt-1">
           Large breakpoint occurs by default when browser is less than 992px.
        </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 border ">
+        <div class="col-lg-4 border bg-warning-subtle">
           .col-lg-4
         </div>
-        <div class="col-lg-4 border text-primary">
+        <div class="col-lg-4 border text-primary bg-warning-subtle">
           .col-lg-4
         </div>
-        <div class="col-lg-4 border text-dark-emphasis">
+        <div class="col-lg-4 border text-dark-emphasis bg-warning-subtle">
             .col-lg-4
         </div>
       </div>
       <div class="row mt-1">
-        Small breakpoint occurs by default when browser is less than 540px.
+        Small breakpoint occurs by default when browser is less than 576px.
       </div>
       <div class="row">
-        <div class="col-sm-4 border ">
+        <div class="col-sm-4 border border-dark-subtle bg-secondary-subtle">
           .col-sm-4
         </div>
-        <div class="col-sm-4 border text-primary">
+        <div class="col-sm-4 border border-dark-subtle text-primary bg-secondary-subtle">
           .col-sm-4
         </div>
-        <div class="col-sm-4 border text-dark-emphasis">
+        <div class="col-sm-4 border border-dark-subtle text-dark-emphasis bg-secondary-subtle">
           .col-sm-4
         </div>
       </div>

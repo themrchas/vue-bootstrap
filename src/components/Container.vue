@@ -1,5 +1,7 @@
 <template>
 
+    <div class="h3 mt-3">Container Examples</div>
+
 <div class="container">
     <h3>.container</h3>
     <div class="text-start">This example shows the use of .container class. This class will put a max-width in px on the container and width:100% on children (by default).</div>

@@ -4,6 +4,8 @@
   <Container />
  <!--  <ViewportInfo />   -->
 
+ <ColumnFlex />
+
 </template>
   
 
@@ -11,11 +13,12 @@
 import Layout from './components/Layout.vue';
 import Container from './components/Container.vue';
 import ViewportInfo from './components/ViewportInfo.vue';
+import ColumnFlex from './components/ColumnFlex.vue';
 
 
 export default {
   name: 'App',
-  components: { Layout, Container, ViewportInfo },
+  components: { Layout, Container, ViewportInfo, ColumnFlex },
 
   setup() {
 
