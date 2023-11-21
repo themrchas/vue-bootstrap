@@ -1,6 +1,6 @@
 <template>
 
-  <h4>Column and Row Examples</h4>
+  <div class="h3 mt-2">Column and Row Examples</div>
 
     <div class="container">
       <div class="row">

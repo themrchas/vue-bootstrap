@@ -1,0 +1,29 @@
+//You can directly modify varibales found in _variables.scss. 
+//These must be defined prioir to importing the contents of file _variables.scss.  '!default' means assign value if not yet defined
+//$body-bg:#ced6cf;
+$body-color:#111;
+
+@import "../../node_modules/bootstrap/scss/functions";
+ @import "../../node_modules/bootstrap/scss/variables";     
+   
+//Values to extend on $spacers
+ $custom-spacers: (
+    6: $spacer * 3.5,
+    7: $spacer * 4,
+    8: $spacer * 5,
+    9: $spacer * 6,
+    10: $spacer * 7
+ );
+
+ //Merge the maps
+ $spacers: map-merge($spacers , $custom-spacers );
+
+
+ //Add results to output.  '--theme-spacer-....' is for demonstration that you can see in Dev Tools
+ :root {
+    @each $spacer, $value in $spacers {
+        --theme-spacer-#{$spacer}: #{$value};
+    }
+ }
+ 
+ @import "../../node_modules/bootstrap/scss/bootstrap";

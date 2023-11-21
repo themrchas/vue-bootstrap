@@ -1,6 +1,6 @@
 <template>
 
-    <h3 class="mt-3">Vertical column alignment within a container</h3>
+    <h3 class="mt-8">Vertical column alignment within a container</h3>
     <div class="container mt-1.5">
         <div>align-items-start</div>
          <div class="row align-items-start border border-dark row-height">
@@ -23,7 +23,7 @@
     </div>
 
 
-    <h3 class="mt-3">Indivdual column alignment within a container</h3>
+    <h3 class="mt-8">Indivdual column alignment within a container</h3>
     <div class="container mt-1.5">
         <div>align-items-start</div>
          <div class="row border border-dark row-height">
@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <h3 class="mt-3">Horizontal column alignment </h3>
+    <h3 class="mt-8">Horizontal column alignment </h3>
     <div class="container mt-1.5">
         <div>justify-content-start</div>
             <div class="row border border-dark flex-row-height justify-content-start">
