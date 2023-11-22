@@ -27,7 +27,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Horizonatal alignment of columns within a row resembling flex box
 
 ## Default bootstrap settings modified.  
-### Note the VS Code Live SASS Extenson was used.
+#### Note the VS Code Live SASS Extenson was used.
 - $spaces 
 - $body-color 
 
