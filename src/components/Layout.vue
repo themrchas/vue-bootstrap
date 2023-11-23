@@ -29,7 +29,7 @@
           Example showing responsive breakpoint using .container class. The .container class is responsive and columns are set be responsive at lg and sm breakpoints respectively.
        </div>
        <div class="col-12 h6 text-start mt-1">
-          Large breakpoint occurs by default when browser is less than 992px.
+          Large breakpoint occurs by default when viewport is less than 992px.
        </div>
       </div>
       <div class="row">
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="row mt-1">
-        Small breakpoint occurs by default when browser is less than 576px.
+        Small breakpoint occurs by default when viewport is less than 576px.
       </div>
       <div class="row">
         <div class="col-sm-4 border border-dark-subtle bg-secondary-subtle">
